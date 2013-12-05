@@ -205,9 +205,10 @@ $chosen-sprite-retina: image-url('chosen-sprite@2x.png');
       padding: 0;
       white-space: nowrap;
       input[type="text"] {
+        @include box-sizing(border-box);
         margin: 1px 0;
         padding: 5px;
-        height: 15px;
+        height: 25px;
         outline: 0;
         border: 0 !important;
         background: transparent !important;
